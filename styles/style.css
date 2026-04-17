@@ -27,16 +27,38 @@ header{
     position: sticky;
     top: 0;
 
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
+    align-items: center; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     align-items: center;
-
-
     background-color: #2E7D32;
 }
 
+.nav-index{
+    justify-self: start;
+    grid-column: 1/2;
+}
+
+.color-titulo{
+    grid-column: 2/3;
+    color:#000000;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+}
+
+.nav{
+    justify-self: end;
+    grid-column: 3/4;
+}
+
+
 .logo-nav{
-    height: 10vh;
+    height: 5vh;
     width: auto;
 
 }
@@ -48,12 +70,6 @@ header{
     gap: 20px;
 }
 
-.color-titulo{
-    color:#000000;
-    text-align: center;
-    font-family: "Roboto Slab", serif;
-    font-weight: 400;
-}
 
 /*NAV*/
 
