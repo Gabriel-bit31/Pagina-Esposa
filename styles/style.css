@@ -1,3 +1,201 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Generales*/ 
+
+p{
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+
+/*INDEX*/
+/*Header*/
+
+header{
+    padding: 20px;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-color: #2E7D32;
+}
+
+.logo-nav{
+    height: 10vh;
+    width: auto;
+
+}
+
+.nav-list{
+    list-style: none;
+
+    display: flex;
+    gap: 20px;
+}
+
+.color-titulo{
+    color:#000000;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+}
+
+/*NAV*/
+
+
+
+
+/*Main*/
+
+.home{
+    padding: 10px 50px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+
+    background-color: #F1F8F4;
+    height: auto;
+    
+}
+
+.home-cont{
+    text-align: center;
+    
+}
+
+.home-cont article{
+    margin: 20px;
+}
+
+.fotos-home{
+
+    padding: 10px;
+    
+    
+    height:25%;
+    width:25%;
+    border-radius: 30px;
+}
+
+/*Footer*/
+
+footer{
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B5E20;
+}
+
+.lista-rs{
+   list-style: none;
+   display: flex;
+   gap: 20px;
+}
+
+.rss{
+    height: 5vh;
+    width: auto;
+}
+
+.wa{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+/*Se recomienda usar vw y vh  para headers, main o footers, estructuras grandes*/
+
+/*SOBRE MI*/
+/*SERVICIOS*/
+
+.plan-home{
+    height: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+
+.plan-title{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.plan-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.plan-name{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.plan{
+    width: 20vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan-img{
+    width: 15vw;
+ }
+
+.plan-desc{
+    font-size: 1.5rem;
+}
+
+/*CONTACTO*/
+.cont{
+    padding: 40px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+}
+
+.f-contact{
+    text-align: center;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-family: "Roboto Slab", serif;
+    color:#000000;
+    font-weight: 400;
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
 
 /*# sourceMappingURL=style.css.map */
